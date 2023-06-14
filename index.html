@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kochi Metro</title>
+    <link rel = "icon" href = 
+"./Koch_Metro_Logo.png" 
+        type = "image/x-icon">
+
+
+</head>
+
+<body>
+    <center>
+        <img src="./Koch_Metro_Logo.png">
+        <h1>Fare Calculator</h1>
+        <label for="stations">From</label>
+        <select name="stations" id="from">
+            <option disabled hidden selected>Select Station</option>
+            <option>Aluva</option>
+            <option>Pulinchodu</option>
+            <option>Companypady</option>
+            <option>Ambattukavu</option>
+            <option>Muttom</option>
+            <option>Kalamassery</option>
+            <option>Cochin University</option>
+            <option>Pathadippalam</option>
+            <option>Edappally</option>
+            <option>Changampuzha</option>
+            <option>Palarivttom</option>
+            <option>JNL Stadium</option>
+            <option>Kaloor</option>
+            <option>Town Hall</option>
+            <option>MG Road</option>
+            <option>MahaRajas</option>
+            <option>Ernakulam South</option>
+            <option>Kadavanthra</option>
+            <option>Elamkulam</option>
+            <option>Vytilla</option>
+            <option>Thaikoodam</option>
+            <option>Petta</option>
+            <option>Vadakkekotta</option>
+            <option>SN Junction</option>
+        </select>
+        <br>
+        <br>
+        <label for="stations">To</label>
+        <select name="stations" id="to">
+            <option disabled hidden selected>Select Station</option>
+            <option>Aluva</option>
+            <option>Pulinchodu</option>
+            <option>Companypady</option>
+            <option>Ambattukavu</option>
+            <option>Muttom</option>
+            <option>Kalamassery</option>
+            <option>Cochin University</option>
+            <option>Pathadippalam</option>
+            <option>Edappally</option>
+            <option>Changampuzha</option>
+            <option>Palarivttom</option>
+            <option>JNL Stadium</option>
+            <option>Kaloor</option>
+            <option>Town Hall</option>
+            <option>MG Road</option>
+            <option>MahaRajas</option>
+            <option>Ernakulam South</option>
+            <option>Kadavanthra</option>
+            <option>Elamkulam</option>
+            <option>Vytilla</option>
+            <option>Thaikoodam</option>
+            <option>Petta</option>
+            <option>Vadakkekotta</option>
+            <option>SN Junction</option>
+        </select>
+        <br>
+        <br>
+        <label for="stations">Mode</label>
+        <select name="stations" id="payment">
+            <option value="token">Token</option>
+            <option value="card">Card</option>
+            <option disabled hidden selected>Select Pay Mode</option>
+        </select>
+        <br>
+        <br>
+        <button onclick="calc()">Calculate</button>
+        <br>
+        <div id="result"></div>
+    </center>
+    <script src="/metro.js"></script>
+</body>
+
+</html>
